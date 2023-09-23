@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.main-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.sub-container {
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  width: 88%;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-container {
+    width: 55%;
+    padding: 25px;
+  }
+}
+
+.heading {
+  color: #a35200;
+  font-size: 28px;
+  margin: 1px 0 15px 0;
+}
+
+.para {
+  color: #334155;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 1px;
+}
+
+.image {
+  width: 70%;
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 50%;
+  }
+}
+
+.btn {
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 7px 12px;
+  margin: 5px 0;
+}
+
+.score-para {
+  color: #475569;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-container {
+    display: flex;
+  }
+}
